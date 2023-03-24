@@ -1,31 +1,3 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-## Features
-
-- [x] Database ([typeorm](https://www.npmjs.com/package/typeorm)).
-- [x] Seeding.
-- [x] Config Service ([@nestjs/config](https://www.npmjs.com/package/@nestjs/config)).
-- [x] Mailing ([nodemailer](https://www.npmjs.com/package/nodemailer), [@nestjs-modules/mailer](https://www.npmjs.com/package/@nestjs-modules/mailer)).
-- [x] Sign in and sign up via email.
-- [x] Social sign in (Apple, Facebook, Google, Twitter).
-- [x] Admin and User roles.
-- [x] I18N ([nestjs-i18n](https://www.npmjs.com/package/nestjs-i18n)).
-- [x] File uploads. Support local and Amazon S3 drivers.
-- [x] Swagger.
-- [x] E2E and units tests.
-- [x] Docker.
-- [x] CI (Github Actions).
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-
 ## Quick run
 
 ```bash
@@ -51,8 +23,6 @@ cp env-example .env
 
 Change `DATABASE_HOST=postgres` to `DATABASE_HOST=localhost`
 
-Change `MAIL_HOST=maildev` to `MAIL_HOST=localhost`
-
 Run additional container:
 
 ```bash
@@ -68,12 +38,6 @@ npm run seed:run
 
 npm run start:dev
 ```
-
-## Links
-
-- Swagger: http://localhost:3000/docs
-- Adminer (client for DB): http://localhost:8080
-- Maildev: http://localhost:1080
 
 ## Automatic update of dependencies
 
